@@ -26,3 +26,8 @@ This project requires **Python 3.6+** and the following Python libraries install
 ## Code
 
 Code is provided in `HRTech2019_LDA.py`. 
+
+
+## Topic Visualization
+
+[Interactive topic visualization](https://ai-journey.com/wp-content/uploads/2019/10/lda.html)
