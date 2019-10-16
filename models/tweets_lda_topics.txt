@@ -1,0 +1,21 @@
+Topic: 0 
+Words: 0.023*"role" + 0.023*"shape" + 0.021*"imgisellemota" + 0.017*"strategic" + 0.017*"case" + 0.016*"steveboese" + 0.016*"jeanneachille" + 0.015*"truth" + 0.015*"staff" + 0.014*"practice"
+Topic: 1 
+Words: 0.022*"workday" + 0.019*"survey" + 0.018*"pitchfest" + 0.017*"real" + 0.016*"nextchat" + 0.015*"ceo" + 0.014*"listen" + 0.013*"keep" + 0.012*"talent_acquisition" + 0.012*"end"
+Topic: 2 
+Words: 0.021*"morning" + 0.018*"right" + 0.017*"leader" + 0.017*"conversation" + 0.016*"career" + 0.015*"workplace" + 0.014*"kick" + 0.013*"woman" + 0.013*"lot" + 0.013*"chance"
+Topic: 3 
+Words: 0.057*"adp" + 0.030*"two" + 0.026*"connect" + 0.024*"head_action" + 0.024*"ultimatehcm" + 0.022*"friend" + 0.020*"sand" + 0.019*"open" + 0.017*"cool" + 0.017*"bravohrtech"
+Topic: 4 
+Words: 0.030*"learn" + 0.024*"experience" + 0.016*"excite" + 0.016*"talent" + 0.014*"solution" + 0.012*"app" + 0.012*"thing" + 0.012*"hire" + 0.011*"future" + 0.011*"platform"
+Topic: 5 
+Words: 0.041*"mwbuckingham" + 0.040*"recognition" + 0.027*"platform_earn" + 0.027*"thrill_adp" + 0.020*"something" + 0.019*"feedback" + 0.019*"care" + 0.016*"major" + 0.015*"answer" + 0.015*"potential"
+Topic: 6 
+Words: 0.031*"hrtechpic" + 0.026*"sponsor" + 0.023*"present" + 0.022*"speak" + 0.021*"attend" + 0.020*"mentor" + 0.020*"night" + 0.018*"ever" + 0.017*"party" + 0.014*"lasvegas"
+Topic: 7 
+Words: 0.054*"josh_bersin" + 0.020*"skill" + 0.017*"keynote" + 0.016*"barbaracorcoran" + 0.016*"analytics" + 0.015*"trust" + 0.014*"everything" + 0.013*"engage" + 0.013*"catch" + 0.013*"stand"
+Topic: 8 
+Words: 0.024*"question" + 0.023*"system" + 0.021*"trend" + 0.019*"woman" + 0.018*"stage" + 0.017*"yes" + 0.016*"barbaracorcoran" + 0.015*"tell" + 0.015*"believe" + 0.014*"strong"
+Topic: 9 
+Words: 0.026*"adp_platform" + 0.025*"earn_recognition" + 0.025*"agree" + 0.024*"officially_pub" + 0.023*"employeedevchat" + 0.021*"craw_learn" + 0.021*"expect" + 0.018*"video" + 0.017*"count" + 0.016*"visierathrtech"
+
