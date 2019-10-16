@@ -7,7 +7,7 @@ I scrape tweets with #[HRTechConf](https://www.hrtechnologyconference.com/), and
 2. Data pre-processing
 3. Generating word cloud
 4. Train LDA model
-5. Visualizing topics
+5. [Visualizing topics](https://ai-journey.com/wp-content/uploads/2019/10/lda.html)
 
 ## Install
 
