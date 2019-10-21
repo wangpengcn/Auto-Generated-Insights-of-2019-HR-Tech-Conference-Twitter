@@ -1,21 +1,61 @@
 Topic: 0 
-Words: 0.023*"role" + 0.023*"shape" + 0.021*"imgisellemota" + 0.017*"strategic" + 0.017*"case" + 0.016*"steveboese" + 0.016*"jeanneachille" + 0.015*"truth" + 0.015*"staff" + 0.014*"practice"
+Words: 0.144*"dance night" + 0.144*"night away" + 0.139*"csod csodathrtech" + 0.119*"learn dance" + 0.119*"away csod" + 0.075*"head learn" + 0.001*"shiny bullshit" + 0.001*"diamond sponsor" + 0.001*"prove shiny" + 0.001*"remember power"
 Topic: 1 
-Words: 0.022*"workday" + 0.019*"survey" + 0.018*"pitchfest" + 0.017*"real" + 0.016*"nextchat" + 0.015*"ceo" + 0.014*"listen" + 0.013*"keep" + 0.012*"talent_acquisition" + 0.012*"end"
+Words: 0.183*"excitement building" + 0.183*"palazzo mwbuckingham" + 0.183*"building palazzo" + 0.001*"prove shiny" + 0.001*"tell prove" + 0.001*"move tell" + 0.001*"power move" + 0.001*"bullshit bullshit" + 0.001*"shiny bullshit" + 0.001*"remember power"
 Topic: 2 
-Words: 0.021*"morning" + 0.018*"right" + 0.017*"leader" + 0.017*"conversation" + 0.016*"career" + 0.015*"workplace" + 0.014*"kick" + 0.013*"woman" + 0.013*"lot" + 0.013*"chance"
+Words: 0.231*"adp platform" + 0.209*"platform earn" + 0.209*"earn recognition" + 0.134*"thrill adp" + 0.058*"learn skill" + 0.050*"idea innovator" + 0.038*"learn connect" + 0.000*"recognition adp" + 0.000*"power move" + 0.000*"floor remember"
 Topic: 3 
-Words: 0.057*"adp" + 0.030*"two" + 0.026*"connect" + 0.024*"head_action" + 0.024*"ultimatehcm" + 0.022*"friend" + 0.020*"sand" + 0.019*"open" + 0.017*"cool" + 0.017*"bravohrtech"
+Words: 0.259*"kronos ceo" + 0.059*"rule follow" + 0.041*"kronos highly" + 0.041*"surprisingly simple" + 0.041*"simple rule" + 0.041*"reveals surprisingly" + 0.041*"replicate success" + 0.041*"workinspired kronos" + 0.041*"follow replicate" + 0.041*"culture reveals"
 Topic: 4 
-Words: 0.030*"learn" + 0.024*"experience" + 0.016*"excite" + 0.016*"talent" + 0.014*"solution" + 0.012*"app" + 0.012*"thing" + 0.012*"hire" + 0.011*"future" + 0.011*"platform"
+Words: 0.287*"oow oow" + 0.159*"staciagarr redthreadre" + 0.142*"social rhondapic" + 0.120*"careerpathing social" + 0.068*"josh bersin" + 0.001*"bersin careerpathing" + 0.001*"digital transformation" + 0.001*"career path" + 0.001*"shiny bullshit" + 0.001*"tell prove"
 Topic: 5 
-Words: 0.041*"mwbuckingham" + 0.040*"recognition" + 0.027*"platform_earn" + 0.027*"thrill_adp" + 0.020*"something" + 0.019*"feedback" + 0.019*"care" + 0.016*"major" + 0.015*"answer" + 0.015*"potential"
+Words: 0.279*"code save" + 0.279*"save extra" + 0.001*"move tell" + 0.001*"power move" + 0.001*"prove shiny" + 0.001*"shiny bullshit" + 0.001*"remember power" + 0.001*"change management" + 0.001*"tell prove" + 0.001*"shark tank"
 Topic: 6 
-Words: 0.031*"hrtechpic" + 0.026*"sponsor" + 0.023*"present" + 0.022*"speak" + 0.021*"attend" + 0.020*"mentor" + 0.020*"night" + 0.018*"ever" + 0.017*"party" + 0.014*"lasvegas"
+Words: 0.339*"offer insight" + 0.002*"move tell" + 0.002*"bullshit bullshit" + 0.002*"shark tank" + 0.002*"change management" + 0.002*"tell prove" + 0.002*"shiny bullshit" + 0.002*"remember power" + 0.002*"prove shiny" + 0.002*"power move"
 Topic: 7 
-Words: 0.054*"josh_bersin" + 0.020*"skill" + 0.017*"keynote" + 0.016*"barbaracorcoran" + 0.016*"analytics" + 0.015*"trust" + 0.014*"everything" + 0.013*"engage" + 0.013*"catch" + 0.013*"stand"
+Words: 0.187*"marcus buckingham" + 0.177*"book signing" + 0.138*"free copy" + 0.124*"nine lie" + 0.079*"present lie" + 0.079*"buckingham present" + 0.001*"peopledoc inc" + 0.001*"drive engagement" + 0.001*"around world" + 0.001*"answer question"
 Topic: 8 
-Words: 0.024*"question" + 0.023*"system" + 0.021*"trend" + 0.019*"woman" + 0.018*"stage" + 0.017*"yes" + 0.016*"barbaracorcoran" + 0.015*"tell" + 0.015*"believe" + 0.014*"strong"
+Words: 0.152*"talent building" + 0.152*"building superpower" + 0.117*"superpower quiz" + 0.117*"quiz jobvite" + 0.117*"jobvite result" + 0.104*"result hire" + 0.001*"tell prove" + 0.001*"remember power" + 0.001*"power move" + 0.001*"shiny bullshit"
 Topic: 9 
-Words: 0.026*"adp_platform" + 0.025*"earn_recognition" + 0.025*"agree" + 0.024*"officially_pub" + 0.023*"employeedevchat" + 0.021*"craw_learn" + 0.021*"expect" + 0.018*"video" + 0.017*"count" + 0.016*"visierathrtech"
+Words: 0.125*"confidence adpnextgenhcm" + 0.125*"globally compliance" + 0.125*"compliance confidence" + 0.125*"operate globally" + 0.125*"expand operate" + 0.001*"social rhondapic" + 0.001*"become phone" + 0.001*"shark tank" + 0.001*"diamond sponsor" + 0.001*"tell prove"
+Topic: 10 
+Words: 0.003*"floor remember" + 0.003*"thought leader" + 0.003*"shark tank" + 0.003*"change management" + 0.003*"tell prove" + 0.003*"shiny bullshit" + 0.003*"remember power" + 0.003*"prove shiny" + 0.003*"power move" + 0.003*"move tell"
+Topic: 11 
+Words: 0.151*"talent experience" + 0.113*"experience talent" + 0.080*"vibin swag" + 0.080*"unlock vibin" + 0.059*"superior experience" + 0.057*"key unlock" + 0.055*"minute stage" + 0.043*"vibehcm chance" + 0.042*"chance unlock" + 0.032*"stick around"
+Topic: 12 
+Words: 0.077*"amaze important" + 0.077*"imsosarah present" + 0.077*"present amaze" + 0.077*"important buying" + 0.070*"tell prove" + 0.054*"move tell" + 0.054*"power move" + 0.054*"shiny bullshit" + 0.054*"remember power" + 0.054*"prove shiny"
+Topic: 13 
+Words: 0.144*"platform become" + 0.087*"delete seamlessly" + 0.087*"bersin shape" + 0.087*"seamlessly josh" + 0.087*"apps delete" + 0.087*"become phone" + 0.087*"phone apps" + 0.074*"josh bersin" + 0.001*"reward gateway" + 0.001*"shiny bullshit"
+Topic: 14 
+Words: 0.003*"floor remember" + 0.003*"thought leader" + 0.003*"shark tank" + 0.003*"change management" + 0.003*"tell prove" + 0.003*"shiny bullshit" + 0.003*"remember power" + 0.003*"prove shiny" + 0.003*"power move" + 0.003*"move tell"
+Topic: 15 
+Words: 0.134*"harish peri" + 0.134*"attendee inside" + 0.134*"inside winner" + 0.134*"peri attendee" + 0.134*"adp harish" + 0.001*"change management" + 0.001*"tell prove" + 0.001*"move tell" + 0.001*"shiny bullshit" + 0.001*"power move"
+Topic: 16 
+Words: 0.116*"friend attend" + 0.075*"date wonderful" + 0.075*"must admit" + 0.075*"attend wish" + 0.075*"admit speed" + 0.075*"shout friend" + 0.075*"speed date" + 0.075*"wish except" + 0.075*"except must" + 0.001*"move tell"
+Topic: 17 
+Words: 0.003*"floor remember" + 0.003*"thought leader" + 0.003*"shark tank" + 0.003*"change management" + 0.003*"tell prove" + 0.003*"shiny bullshit" + 0.003*"remember power" + 0.003*"prove shiny" + 0.003*"power move" + 0.003*"move tell"
+Topic: 18 
+Words: 0.390*"talent acquisition" + 0.059*"acquisition suite" + 0.057*"integrate talent" + 0.037*"analytics predictive" + 0.037*"newly integrate" + 0.032*"harness power" + 0.022*"insight prescriptive" + 0.022*"issue also" + 0.022*"predictive insight" + 0.022*"prescriptive insight"
+Topic: 19 
+Words: 0.294*"artificial intelligence" + 0.092*"stick around" + 0.073*"resource artificial" + 0.073*"intelligence report" + 0.046*"talemetry rolepoint" + 0.041*"jobvite launch" + 0.041*"suite talemetry" + 0.041*"launch newly" + 0.038*"rolepoint gocanvashq" + 0.038*"newly integrate"
+Topic: 20 
+Words: 0.823*"josh bersin" + 0.055*"opening keynote" + 0.018*"woman opening" + 0.012*"opportunity connect" + 0.007*"amaze event" + 0.006*"rebeccahrexec katieachille" + 0.006*"jeanneachille rebeccahrexec" + 0.006*"steveboese jeanneachille" + 0.005*"event feel" + 0.005*"lucky opportunity"
+Topic: 21 
+Words: 0.307*"head learn" + 0.002*"remember power" + 0.002*"tell prove" + 0.002*"power move" + 0.002*"prove shiny" + 0.002*"floor remember" + 0.002*"shiny bullshit" + 0.002*"change management" + 0.002*"thought leader" + 0.002*"shark tank"
+Topic: 22 
+Words: 0.003*"floor remember" + 0.003*"thought leader" + 0.003*"shark tank" + 0.003*"change management" + 0.003*"tell prove" + 0.003*"shiny bullshit" + 0.003*"remember power" + 0.003*"prove shiny" + 0.003*"power move" + 0.003*"move tell"
+Topic: 23 
+Words: 0.110*"total reward" + 0.054*"benefit utilization" + 0.054*"utilization mindset" + 0.054*"reward compensation" + 0.054*"mercer learn" + 0.054*"learn total" + 0.054*"compensation benefit" + 0.043*"lisa sterling" + 0.036*"disruptive change" + 0.031*"strategic leader"
+Topic: 24 
+Words: 0.274*"officially pub" + 0.274*"pub craw" + 0.245*"craw learn" + 0.001*"prove shiny" + 0.001*"move tell" + 0.001*"power move" + 0.001*"floor remember" + 0.001*"remember power" + 0.001*"retain talent" + 0.001*"shiny bullshit"
+Topic: 25 
+Words: 0.139*"solution provider" + 0.139*"capital management" + 0.128*"iwork kronospic" + 0.123*"safe travel" + 0.079*"name solution" + 0.068*"kronos name" + 0.028*"sponsor staff" + 0.028*"staff safe" + 0.028*"speaker exhibitor" + 0.028*"exhibitor sponsor"
+Topic: 26 
+Words: 0.390*"happy hour" + 0.300*"vice president" + 0.001*"onblick invite" + 0.001*"charles mah" + 0.001*"insperity visier" + 0.001*"change management" + 0.001*"remember power" + 0.001*"shiny bullshit" + 0.001*"power move" + 0.001*"tell prove"
+Topic: 27 
+Words: 0.158*"october learn" + 0.114*"learn attivio" + 0.114*"attivio elevate" + 0.114*"elevate servicenow" + 0.114*"meetattivio elevatepic" + 0.114*"servicenow meetattivio" + 0.001*"change management" + 0.001*"diamond sponsor" + 0.001*"tell prove" + 0.001*"social rhondapic"
+Topic: 28 
+Words: 0.163*"learn solution" + 0.084*"gay inform" + 0.084*"nancy gay" + 0.079*"learn experience" + 0.045*"adp solution" + 0.042*"learn learn" + 0.036*"highly personalize" + 0.025*"personalize learn" + 0.024*"eligible feel" + 0.024*"vendor eligible"
+Topic: 29 
+Words: 0.185*"bartender recruiting" + 0.172*"machine learn" + 0.115*"social medium" + 0.074*"place bet" + 0.060*"post social" + 0.039*"recognition strategy" + 0.038*"reward recognition" + 0.031*"motivator impact" + 0.031*"impact reward" + 0.027*"rewardgateway employeeengagement"
 

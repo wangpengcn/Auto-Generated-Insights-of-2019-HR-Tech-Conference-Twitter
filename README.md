@@ -1,6 +1,8 @@
 # Auto Generated Insights of 2019 HR Tech Conference Twitter
 ![image](./figures/wordcloud.png) 
 
+![image](./figures/HRTechConf2019Topics_lda.png) 
+
 I scrape tweets with #[HRTechConf](https://www.hrtechnologyconference.com/), and build Latent Dirichlet Allocation (LDA) model for auto detecting and interpreting topics in the tweets. Here is my pipeline:
 
 1. Data gathering – twitter scrape

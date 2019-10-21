@@ -71,9 +71,24 @@ TWEET_QUERY = 'HRTechConf'
 BEGINDATE = datetime.date(2019, 9, 26)
 ENDDATE = datetime.date(2019, 10, 6)
 LANG = 'en'
-# Number of topics for LDA model to generate
-NUM_TOPICS = 10
+# ngrams or multi-word expressions
 NUM_GRAMS = 2
+# ----------------------
+# LDA model parameters
+# ----------------------
+# Number of topics
+NUM_TOPICS = 30
+# Number of training passes
+NUM_PASSES = 50 
+# Document-Topic Density. The lower alpha is, the more likely that 
+# a document may contain mixture of just a few of the topics. 
+# Default is 1.0/NUM_TOPICS
+ALPHA = 0.001
+# Word-Topic Density. The lower eta is, the more likely that 
+# a topic may contain a mixture of just a few of the words
+# Default is 1.0/NUM_TOPICS
+ETA = 'auto'
+# ----------------------
 
 def get_wordnet_pos(word):
     """
@@ -184,13 +199,37 @@ def preprocess_tweets(all_tweets_df):
     
     return cleaned_tweets_df 
 
-def train_lda_model(token_tweets_input):
-    print('Start LDA model training ...\n')
-    # Build bigram (only ones that appear 10 times or more)
-    bigram = models.Phrases(token_tweets_input, min_count=10)
-    bigram_model = models.phrases.Phraser(bigram)
-    token_tweets = [bigram_model[x] for x in token_tweets_input]
+def get_word_count(tweets_text, num_gram):
+    '''
+    Get common word counts
+    '''
+    n_grams = list(ngrams(tweets_text, num_gram))
+    common_words = Counter(n_grams).most_common()
+    word_count = pd.DataFrame(data = common_words, 
+                              columns=['word','frequency']) 
+    # Convert list to string
+    word_count['word'] = word_count['word'].apply(' '.join)
+    # Plot word count graph
+    word_count.head(20).sort_values('frequency').plot.barh(
+            x='word', y='frequency', title='Word Frequency',figsize=(19,10))
+    plt.savefig(WORD_COUNT_FILE)
+    print ('Word count saved\n')
+    plt.close('all')
     
+    return word_count
+
+def word_grams(words, min=1, max=2):
+    '''
+    Build ngrams word list
+    '''
+    word_list = []
+    for n in range(min, max):
+        for ngram in ngrams(words, n):
+            word_list.append(' '.join(str(i) for i in ngram))
+    return word_list
+
+def train_lda_model(token_tweets):
+    print('Start LDA model training ...\n')    
     # Build dictionary
     tweets_dict = corpora.Dictionary(token_tweets)
     # Remove words that occur less than 10 documents, 
@@ -209,8 +248,10 @@ def train_lda_model(token_tweets_input):
     # Train LDA model
     lda_model = models.ldamodel.LdaModel(corpus=tfidf_corpus, 
                                          num_topics=NUM_TOPICS, 
-                                         id2word=tweets_dict, passes=20, 
-                                         alpha='auto', eta='auto',
+                                         id2word=tweets_dict, 
+                                         passes=NUM_PASSES, 
+                                         alpha=ALPHA, 
+                                         eta=ETA,
                                          random_state=49)
     # Save LDA model to file
     lda_model.save(LDA_MODEL_FILE)
@@ -241,42 +282,26 @@ def vis_topics(lda_model, corpus, dict):
     '''
     Plot generated topics on an interactive graph
     '''
-    lda_data =  pyLDAvis.gensim.prepare(lda_model, corpus, dict)
+    lda_data =  pyLDAvis.gensim.prepare(lda_model, corpus, dict, mds='mmds')
     pyLDAvis.display(lda_data)
     pyLDAvis.save_html(lda_data, TOPIC_VIS_FILE)
     print ('Topic visual saved\n')
-
-def get_word_count(tweets_text, num_gram):
-    '''
-    Get common word counts
-    '''
-    bi_grams = list(ngrams(tweets_text, num_gram))
-    common_words = Counter(bi_grams).most_common()
-    word_count = pd.DataFrame(data = common_words, 
-                              columns=['word','frequency']) 
-    # Convert list to string
-    word_count['word'] = word_count['word'].apply(' '.join)
-    # Plot word count graph
-    word_count.head(20).sort_values('frequency').plot.barh(
-            x='word', y='frequency', title='Word Frequency',figsize=(19,10))
-    plt.savefig(WORD_COUNT_FILE)
-    print ('Word count saved\n')
-    plt.close('all')
-    
-    return word_count
 
 if __name__ == '__main__':
     # Get all tweets
     all_tweets_df = get_all_tweets()
     # Preprocess tweets
-    cleaned_tweets_df = preprocess_tweets(all_tweets_df)
-    # Get list of tokenized words
-    token_tweets = cleaned_tweets_df['token']
-    tweets_text = [word for one_tweet in token_tweets for word in one_tweet]
-    # Get common word counts
+    cleaned_tweets_df = preprocess_tweets(all_tweets_df)   
+    # Convert series to list for word count
+    tweets_text = [word for one_tweet in cleaned_tweets_df['token'] for word in one_tweet]
+    # Get common ngrams word count
     word_count_df = get_word_count(tweets_text, num_gram=NUM_GRAMS)    
-    # Generate wordcloud
-    tweets_wordcloud = wordcloud(word_count_df)    
+    # Generate word cloud
+    tweets_wordcloud = wordcloud(word_count_df)  
+    # Generate ngram tokens
+    cleaned_tweets_df['ngram_token'] = [word_grams(x, NUM_GRAMS, NUM_GRAMS+1) for 
+                     x in cleaned_tweets_df['token']]
     # Train LDA model and visualize generated topics
-    lda_model = train_lda_model(token_tweets)
+    lda_model = train_lda_model(cleaned_tweets_df['ngram_token'])
     print('DONE!')
+    
