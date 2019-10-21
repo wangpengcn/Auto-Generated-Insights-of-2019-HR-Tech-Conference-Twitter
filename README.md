@@ -31,4 +31,4 @@ Code is provided in `HRTech2019_LDA.py`.
 ## Topic Visualization
 
 [Interactive topic visualization](https://ai-journey.com/wp-content/uploads/2019/10/lda.html)
-![image](./figures/HRTechConf2019Topics_lda.png) 
+[![image](./figures/HRTechConf2019Topics_lda.png)](https://ai-journey.com/wp-content/uploads/2019/10/lda.html)
